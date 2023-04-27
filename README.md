@@ -44,8 +44,8 @@ module "vcd_vapp" {
   vdc_name              = "<US1-VDC-NAME>"
 
   vapp_names = [
-    "vApp-01",
-    "vApp-02"
+    "My Production vApp-01",
+    "My Production vApp-02"
   ]
 }
 ```
