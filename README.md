@@ -1,6 +1,6 @@
 ## Virtual Application Terraform Module
 
-This Terraform module will deploy Virtual Applications (vApps) into an existing VMware Cloud Director (VCD) environment using the `vmware/vcd` provider. This module can be used to provision new vApps into Rackspace Technology SDDC Flex VCD Data Center Regions.
+This Terraform module will deploy Virtual Applications (vApps) into an existing VMware Cloud Director (VCD) Environment.  This module can be used to provsion new vApps into [Rackspace Technology SDDC Flex](https://www.rackspace.com/cloud/private/software-defined-data-center-flex) VCD Data Center Regions.
 
 ## Requirements
 
