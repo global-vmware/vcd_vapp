@@ -7,7 +7,7 @@ This Terraform module will deploy Virtual Applications (vApps) into an existing 
 | Name      | Version |
 |-----------|---------|
 | terraform | ~> 1.2  |
-| vcd       | ~> 3.8.2 |
+| vcd       | ~> 3.8 |
 
 ## Resources
 
