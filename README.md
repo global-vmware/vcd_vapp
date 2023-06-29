@@ -37,7 +37,7 @@ This is an example of a `main.tf` file that uses the `"github.com/global-vmware/
 
 ```terraform
 module "vcd_vapp" {
-  source                = "github.com/global-vmware/vcd_vapp.git?ref=v1.1.1"
+  source                = "github.com/global-vmware/vcd_vapp.git?ref=v1.2.0"
   
   vdc_org_name          = "<US1-VDC-ORG-NAME>"
   vdc_group_name        = "<US1-VDC-GRP-NAME>"
