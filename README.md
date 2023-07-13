@@ -6,8 +6,8 @@ This Terraform module will deploy Virtual Applications (vApps) into an existing 
 
 | Name      | Version |
 |-----------|---------|
-| terraform | ~> 1.2  |
-| vcd       | ~> 3.8.2 |
+| terraform | ~> 1.2 |
+| vcd       | ~> 3.8 |
 
 ## Resources
 
@@ -24,6 +24,7 @@ This Terraform module will deploy Virtual Applications (vApps) into an existing 
 | vdc_group_name | The name of the Data Center Group in VCD | string | `"Data Center Group Name Format: <Account_Number>-<Region>-<Account_Name> <datacenter group>"` | yes |
 | vdc_name | Cloud Director VDC Name | string | `"Virtual Data Center Name Format: <Account_Number>-<Region>-<Segment Name>"` | Yes |
 | vapp_names | The names of the vApps to be created | list | - | Yes |
+| power_on | The boolean value stating if this vApp should be powered on | bool | - | No |
 
 ## Outputs
 

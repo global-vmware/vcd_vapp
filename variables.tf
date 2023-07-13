@@ -7,3 +7,8 @@ variable "vdc_name" {}
 variable "vapp_names" {
   type    = list(string)
 }
+
+variable "power_on" {
+  type    = bool
+  default = true
+}

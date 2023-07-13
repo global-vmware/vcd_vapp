@@ -18,4 +18,5 @@ resource "vcd_vapp" "vapp" {
   name     = each.key
   org      = var.vdc_org_name
   vdc      = var.vdc_name
+  power_on = var.power_on
 }
