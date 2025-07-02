@@ -1,3 +1,3 @@
 output "vapp_names" {
-  value = var.vapp_names
+  value = [for v in vcd_vapp.vapp : v.name]
 }
